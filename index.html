@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random color</title>
+    <style>
+        li{
+            margin-top: 10px;
+        }
+        .btn-1{
+            padding: 10px;
+            border: none;
+            background: tomato;
+            color: white;
+            box-shadow: 1px 1px 3px gray;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.4s;
+            text-align: center;
+        }
+        .btn-1:hover{
+            box-shadow: 5px 5px 10px gray;
+        }
+        .btn-2{
+            padding: 10px 10px 5px 10px;
+            border: none;
+            background: none;
+            color: rgb(83, 82, 82);
+            border-bottom: 2px solid tomato;
+            margin-left: 30px;
+            margin-top: 10px;
+            transition: 0.4s;
+        }
+        .tip-box{
+            padding: 10px;
+            border: 2px solid rgb(182, 182, 182);
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px gray;
+            margin-top: 50px;
+            width: 20rem;
+            transition: 0.2s;
+            background: rgb(245, 245, 245);
+        }
+        .tip-box:hover{
+            box-shadow: 5px 5px 20px gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <button class="color-changer btn-1">click me to change my background color</button>
+        <button class="border-changer btn-2">click me to change my border color !</button>
+        <div class="tip-box">
+            <div style="text-align: center;">
+                <h1>Tips</h1>
+            </div>
+
+            <ul>
+                <li>this simple Java Script Code Change the color random and it is not based on Fixed color</li>
+                <li>if you click each button more than 1, the speed of changing color will be faster</li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
